@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/username_title"
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/username_title"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_weight="75"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightof="@+id/username_title"
+            android:hint="@string/username" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/username_field"
+        android:layout_below="@+id/username_field"
+        android:text="@string/submit"
+        android:textSize="20sp" />
+
+</RelativeLayout>
