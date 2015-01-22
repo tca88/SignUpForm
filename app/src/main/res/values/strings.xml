@@ -8,5 +8,6 @@
     <string name="sign_up_form">Signup Form</string>
     <string name="username">Please enter your username</string>
     <string name="username_title">Username:</string>
+    <string name="random">Randomness</string>
 
 </resources>
